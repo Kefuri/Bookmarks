@@ -2,6 +2,7 @@
 ​
 Web app that allows a user to store, add and access his/her bookmarks
 ​
+
 ## Table of Contents
 ​
 * [Description](#introduction)
@@ -10,15 +11,20 @@ Web app that allows a user to store, add and access his/her bookmarks
 * [Project Status](#project-status)
 * [Sources](#sources)
 ​
+
 ## Description
 
 ![IMG_20200210_140205__01](https://user-images.githubusercontent.com/41115973/74157283-ecd7af80-4c0f-11ea-8956-6c5f573b6156.jpg)
 
 In order to setup the database from scratch you will need to do the following steps:
+
   1. Connect to psql
   2. Create the database using the psql command `CREATE DATABASE bookmark_manager;`
   3. Connect to the database using the pqsl command `\c bookmark_manager;`
   4. Run the query we have saved in the file 01_create_bookmarks_table.sql
+  5. Also create a test database `CREATE DATABASE bookmark_manager_test;`
+  6. Connect to this database `\c bookmark_manager_test;`
+  7. Run the same query.
 ​
 ## User Story
 

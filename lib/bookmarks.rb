@@ -4,8 +4,8 @@ class BookmarkHolder
 
     attr_reader :bookmarks, :bookmark_store, :cursor
 
-    def initialize
-        @cursor = DBconnection.new('bookmark_manager', 'tobydawson')
+    def initialize(database = 'bookmark_manager')
+        @cursor = DBconnection.new(database, 'echo')
     end
 
     def all

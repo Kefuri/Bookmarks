@@ -1,12 +1,20 @@
+require_relative './sql_truncate_helper'
+
 require 'capybara/rspec'
 require './app.rb'
 require 'simplecov'
 require 'simplecov-console'
 require "rack/test"
 
+RSpec.configure do |config|
+  config.before(:each) do
+    truncate_tables
+  end
+end
+
 Capybara.app = Bookmarks
 
-ENV['RACK_ENV'] = 'test'
+ENV['ENVIRONMENT'] = 'test'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,

@@ -1,44 +1,41 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/tobydawson/Projects/bookmarks/spec/bookmarks_spec.rb": {
+      "/Users/echo/Desktop/Projects/Bookmarks/spec/bookmarks_spec.rb": {
         "lines": [
           1,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           1,
-          0,
-          null,
+          1,
           null,
           null,
           null
         ]
       },
-      "/Users/tobydawson/Projects/bookmarks/spec/db_connection_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/tobydawson/Projects/bookmarks/spec/features/app_spec.rb": {
+      "/Users/echo/Desktop/Projects/Bookmarks/spec/features/app_spec.rb": {
         "lines": [
           1,
           null,
           1,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -46,6 +43,6 @@
         ]
       }
     },
-    "timestamp": 1581437224
+    "timestamp": 1581520151
   }
 }

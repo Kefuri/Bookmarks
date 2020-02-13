@@ -13,4 +13,12 @@ describe BookmarkHolder do
       expect(result).to include("http://www.destroyallsoftware.com")
     end
   end
+  describe '#add_url' do
+    it 'should add a url to the database' do
+      bookmark =  BookmarkHolder.new('bookmark_manager_test')
+      bookmark.add_url("https://www.reddit.com")
+      result = bookmark.all
+      expect(result).to include("https://www.reddit.com")
+    end
+  end
 end

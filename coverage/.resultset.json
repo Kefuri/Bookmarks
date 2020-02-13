@@ -18,6 +18,29 @@
           1,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/echo/Desktop/Projects/Bookmarks/spec/dbconnection_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -26,7 +49,6 @@
           1,
           null,
           1,
-          null,
           1,
           1,
           1,
@@ -38,11 +60,17 @@
           1,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1581520151
+    "timestamp": 1581603579
   }
 }
